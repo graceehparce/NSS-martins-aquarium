@@ -1,0 +1,97 @@
+body {
+    background: url("https://vivaroundtrip.com/wp-content/uploads/2022/04/nashville-aquarium-restaurant.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* main title */
+.pageHeader {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bolder;
+    background-color: bisque;
+    border: 10px solid salmon;
+    border-radius: 25%;
+    margin: 20px 400px 20px 400px;
+    text-align: center;
+}
+
+/* titles for boxes */
+.boxHeader {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    background-color: bisque;
+    border: 8px solid salmon;
+    border-radius: 25%;
+    margin: 3px 70px 3px 70px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* two main boxes */
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    border: 8px solid saddlebrown;
+    border-radius: 25%;
+    padding: 25px;
+    height: auto;
+    width: auto;
+    margin: 25px
+}
+
+/* tip box */
+.tipBox {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    border: 8px solid saddlebrown;
+    border-radius: 25%;
+    padding: 20px;
+    margin: 25px
+}
+
+/* individual boxes within tip box */
+.tip {
+    background-color: bisque;
+    border: 3px solid salmon;
+    border-radius: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* header on each individual tip */
+.tipTitle {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    background-color: bisque;
+    border: 2px solid saddlebrown;
+    border-radius: 25%;
+    margin: 3px;
+}
+
+.eachFish {
+    font-family: 'Cairo', sans-serif;
+    font-size: large;
+    margin: 10px;
+}
+
+.eachLocation {
+    font-family: 'Cairo', sans-serif;
+    font-size: large;
+    margin: 10px;
+}
+
+.tipContent {
+    font-family: 'Cairo', sans-serif;
+    font-size: x-small;
+    margin: 5px;
+}
