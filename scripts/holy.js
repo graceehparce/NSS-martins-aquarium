@@ -3,6 +3,7 @@ import { getFish } from './database.js'
 
 
 export const mostHolyFish = () => {
+    const fishes = getFish()
     const holyFish = []
     for (let fish of fishes) {
         if (fish.length % 3 === 0) {
@@ -12,9 +13,10 @@ export const mostHolyFish = () => {
     return holyFish
 }
 
-let hFish = mostHolyFish(getFish())
+let hFish = mostHolyFish()
 
 export const soldierFish = () => {
+    const fishes = getFish()
     const soldiers = []
     for (let fish of fishes) {
         if (fish.length % 5 === 0) {
@@ -24,9 +26,10 @@ export const soldierFish = () => {
     return soldiers
 }
 
-let sFish = soldierFish(getFish())
+let sFish = soldierFish()
 
 export const nonHolyFish = () => {
+    const fishes = getFish()
     const regularFish = []
     for (let fish of fishes) {
         if (fish.length % 3 > 0) {
@@ -38,5 +41,5 @@ export const nonHolyFish = () => {
     return regularFish
 }
 
-let rFish = nonHolyFish(getFish())
+let rFish = nonHolyFish()
 
